@@ -10,9 +10,10 @@ for i,j in dict.items():
     print(i,":",j)
 
 most_frequent_word=max(dict,key=dict.get)
-
+print(f"Most frequent word is {most_frequent_word}")
 print(f"total Words: {len(split_sentence)}")
 print(f"Unique words : {len(set(split_sentence))}")
+
 
 
 
